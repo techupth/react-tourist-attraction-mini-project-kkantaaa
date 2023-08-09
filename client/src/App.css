@@ -1,0 +1,79 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    font-family: 'Kanit';
+    font-weight: 300;
+}
+.topic{
+    font-weight: 500;
+    color: cornflowerblue;
+    font-size: 52px;
+    margin: 20px;
+}
+.label{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.searching{
+    width: 60%;
+}
+input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-bottom: 3px solid rgba(90, 88, 88, 0.165);
+    margin-bottom: 40px;
+}
+.recommendedLocations{
+    width: 70%;
+}
+.location{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.title{
+    font-weight: 400;
+    font-size: 24px;
+}
+img{
+    height: 18vw;
+    width: 35%;
+    margin-right: 2vw;
+    border-radius: 8%;
+}
+.content-box{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.tags-list{
+    width: 100%;
+    display: flex;  
+}
+.tag{
+    margin-left: 5px;
+    margin-right: 5px ; 
+    text-decoration: underline;
+}
+.more-photo img {
+    
+    height: 7vw;
+    width: 18%;
+}
+svg {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    color: cornflowerblue;
+}
+svg:hover{
+    color: aquamarine;
+}
